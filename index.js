@@ -1,3 +1,5 @@
-export function print () {
-    console.log('start of table styling');
+exports.print = function (data) {
+    console.log('library')
+    var div = document.createElement("div");
+    return div;
 }
