@@ -4,13 +4,17 @@ exports.print = function (data) {
 }
 
 exports.table = function (data) {
-    var raw = JSON.parse(data);
     var div = document.createElement("div");
     var table = document.createElement("table");
     var head = document.createElement("thead");
     var body = document.createElement("tbody");
 
-    //work
+    data.forEach(element => {
+        var columnHead = document.createElement('th')
+        var headText = document.createTextNode(element.name);
+        columnHead.appendChild(headText);
+        head.appendChild(columnHead);
+    });
 
     table.appendChild(head);
     table.appendChild(body);

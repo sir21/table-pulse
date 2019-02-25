@@ -1,6 +1,6 @@
 {
   "name": "table-pulse",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "NPM module for tables with varius features and styles",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,7 @@
     "ts"
   ],
   "author": "Sasitha Rajapaksha <sasitha.iresha@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/sir21/table-pulse/issues"
   },
