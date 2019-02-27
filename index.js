@@ -20,5 +20,5 @@ exports.table = function (data) {
     table.appendChild(head);
     table.appendChild(body);
     div.appendChild(table);
-    return div;
+    return div.innerHTML();
 }
